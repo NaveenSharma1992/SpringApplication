@@ -1,0 +1,15 @@
+package driver;
+
+import javax.annotation.Resource;
+
+import org.springframework.core.io.ClassPathResource;
+
+public class client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Resource r = new ClassPathResource("resource/Spring.xml");
+	}
+
+}

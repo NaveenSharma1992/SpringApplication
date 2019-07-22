@@ -1,0 +1,11 @@
+package beans;
+
+public class Test {
+	
+	public Test() {
+		System.out.println("Constructor calling.....");
+	}
+	public void helloWorld() {
+		System.out.println("Hello Spring.....");
+	}
+}
